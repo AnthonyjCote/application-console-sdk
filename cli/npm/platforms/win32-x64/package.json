@@ -1,0 +1,27 @@
+{
+  "name": "@application-console/cli-win32-x64",
+  "version": "0.1.0",
+  "description": "Platform-native AppC CLI binary for win32-x64.",
+  "files": [
+    "bin"
+  ],
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyjCote/application-console-sdk.git",
+    "directory": "cli/npm/platforms/win32-x64"
+  },
+  "homepage": "https://applicationconsole.com",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/AnthonyjCote/application-console-sdk/issues"
+  },
+  "license": "Apache-2.0"
+}

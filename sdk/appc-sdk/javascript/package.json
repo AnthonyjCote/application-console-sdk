@@ -1,0 +1,117 @@
+{
+  "name": "@application-console/appc-sdk",
+  "version": "0.1.0",
+  "description": "Host-neutral AppC SDK for applications running in compatible AppC hosts.",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./runtime": {
+      "types": "./dist/runtime.d.ts",
+      "import": "./dist/runtime.js"
+    },
+    "./storage": {
+      "types": "./dist/storage.d.ts",
+      "import": "./dist/storage.js"
+    },
+    "./sql": {
+      "types": "./dist/sql.d.ts",
+      "import": "./dist/sql.js"
+    },
+    "./files": {
+      "types": "./dist/files.d.ts",
+      "import": "./dist/files.js"
+    },
+    "./workspace": {
+      "types": "./dist/workspace.d.ts",
+      "import": "./dist/workspace.js"
+    },
+    "./watch": {
+      "types": "./dist/watch.d.ts",
+      "import": "./dist/watch.js"
+    },
+    "./network": {
+      "types": "./dist/network.d.ts",
+      "import": "./dist/network.js"
+    },
+    "./secrets": {
+      "types": "./dist/secrets.d.ts",
+      "import": "./dist/secrets.js"
+    },
+    "./clipboard": {
+      "types": "./dist/clipboard.d.ts",
+      "import": "./dist/clipboard.js"
+    },
+    "./notifications": {
+      "types": "./dist/notifications.d.ts",
+      "import": "./dist/notifications.js"
+    },
+    "./external": {
+      "types": "./dist/external.d.ts",
+      "import": "./dist/external.js"
+    },
+    "./window": {
+      "types": "./dist/window.d.ts",
+      "import": "./dist/window.js"
+    },
+    "./process": {
+      "types": "./dist/process.d.ts",
+      "import": "./dist/process.js"
+    },
+    "./terminal": {
+      "types": "./dist/terminal.d.ts",
+      "import": "./dist/terminal.js"
+    },
+    "./background": {
+      "types": "./dist/background.d.ts",
+      "import": "./dist/background.js"
+    },
+    "./scheduler": {
+      "types": "./dist/scheduler.d.ts",
+      "import": "./dist/scheduler.js"
+    },
+    "./agent": {
+      "types": "./dist/agent.d.ts",
+      "import": "./dist/agent.js"
+    },
+    "./watch-trigger": {
+      "types": "./dist/watch-trigger.d.ts",
+      "import": "./dist/watch-trigger.js"
+    },
+    "./system": {
+      "types": "./dist/system.d.ts",
+      "import": "./dist/system.js"
+    },
+    "./media": {
+      "types": "./dist/media.d.ts",
+      "import": "./dist/media.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@application-console/host-protocol": "0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyjCote/application-console-sdk.git",
+    "directory": "sdk/appc-sdk/javascript"
+  },
+  "homepage": "https://applicationconsole.com",
+  "bugs": {
+    "url": "https://github.com/AnthonyjCote/application-console-sdk/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "Apache-2.0"
+}
