@@ -1,0 +1,32 @@
+{
+  "name": "@application-console/cli",
+  "version": "0.1.0",
+  "description": "Official npm distribution wrapper for the canonical AppC CLI.",
+  "type": "module",
+  "bin": {
+    "appc": "./bin/appc.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyjCote/application-console-sdk.git",
+    "directory": "cli/npm"
+  },
+  "homepage": "https://applicationconsole.com",
+  "publishConfig": {
+    "access": "public"
+  },
+  "optionalDependencies": {
+    "@application-console/cli-darwin-arm64": "0.1.0",
+    "@application-console/cli-darwin-x64": "0.1.0",
+    "@application-console/cli-linux-x64": "0.1.0",
+    "@application-console/cli-win32-x64": "0.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/AnthonyjCote/application-console-sdk/issues"
+  },
+  "license": "Apache-2.0"
+}

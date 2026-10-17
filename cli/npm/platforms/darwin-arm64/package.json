@@ -1,0 +1,27 @@
+{
+  "name": "@application-console/cli-darwin-arm64",
+  "version": "0.1.0",
+  "description": "Platform-native AppC CLI binary for darwin-arm64.",
+  "files": [
+    "bin"
+  ],
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyjCote/application-console-sdk.git",
+    "directory": "cli/npm/platforms/darwin-arm64"
+  },
+  "homepage": "https://applicationconsole.com",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/AnthonyjCote/application-console-sdk/issues"
+  },
+  "license": "Apache-2.0"
+}
